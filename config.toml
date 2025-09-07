@@ -1,0 +1,10 @@
+theme = "gruvdark"
+
+[keys.normal]
+# Ctrl+g to launch lazygit inside a scratch buffer
+C-g = [
+    ":write-all",               # Save all opened buffers
+    ":new",                     # Open a new empty buffer
+    ":insert-output lazygit",   # Run lazygit command and insert output in buffer
+    ":redraw",                  # Redraw the screen
+]

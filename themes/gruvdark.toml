@@ -1,0 +1,37 @@
+# GruvDark theme for Helix editor (dark variant)
+
+background = "#1E1E1E"
+foreground = "#D6CFC4"
+caret = "#D6CFC4"
+selection = "#303030"
+line_highlight = "#232323"
+gutter_foreground = "#545454"
+gutter_background = "#1E1E1E"
+error = "#D159B6"
+warning = "#D19F66"
+info = "#00A596"
+hint = "#D159B6"
+
+comment = "#575757"
+string = "#72BA62"
+constant = "#00A596"
+"constant.numeric" = "#D19F66"
+boolean = "#D19F66"
+identifier = "#00A596"
+function = "#E16464"
+keyword = "#579DD4"
+operator = "#579DD4"
+type = "#D19F66"
+"variable.builtin" = "#D19F66"
+punctuation = "#D6CFC4"
+tag = "#E16464"
+attribute = "#9266DA"
+
+"markup.heading" = { fg = "#E16464", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+
+"ui.background" = { bg = "#1E1E1E" }
+"ui.text" = { fg = "#D6CFC4" }
+"ui.selection" = { bg = "#303030" }
+"ui.selection.primary" = { bg = "#303030" }
+"ui.cursor" = { modifiers = ["reversed"] }

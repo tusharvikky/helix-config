@@ -18,14 +18,21 @@ enable = true
 render = true
 character = "┊"
 
-
 [editor.cursor-shape]
 insert = "bar"
 normal = "block"
 select = "underline"
 
 [editor.statusline]
-left = [ "mode", "spinner", "file-name", "read-only-indicator", "file-modification-indicator", "separator", "version-control" ]
+left = [
+  "mode",
+  "spinner",
+  "file-name",
+  "read-only-indicator",
+  "file-modification-indicator",
+  "separator",
+  "version-control"
+]
 mode = { normal = "🏄 NORMAL", insert = "👉 INSERT", select = "🔍 SELECT" }
 separator = " "
 

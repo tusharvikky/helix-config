@@ -5,8 +5,8 @@ theme = "gruvdark"
 color-modes = true
 line-number = "relative"
 insert-final-newline = true
+auto-format = true
 rulers = [120]
-
 # Resolve true color detection problems (e.g. on Linux in Windows WSL2)
 # such as the error, "theme: theme requires true color support".
 true-color = true
@@ -18,23 +18,17 @@ enable = true
 render = true
 character = "┊"
 
+
 [editor.cursor-shape]
 insert = "bar"
 normal = "block"
 select = "underline"
 
 [editor.statusline]
-left = ["mode", "spinner", "file-name", "separator", "file-type"]
-right = [
-  "workspace-diagnostics", 
-  "separator", 
-  "selections", 
-  "separator", 
-  "position", 
-  "position-percentage", 
-  "file-encoding", 
-  "file-line-ending"
-]
+left = [ "mode", "spinner", "file-name", "read-only-indicator", "file-modification-indicator", "separator", "version-control" ]
+mode = { normal = "🏄 NORMAL", insert = "👉 INSERT", select = "🔍 SELECT" }
+separator = " "
+
 
 [editor.file-picker]
 hidden = false
